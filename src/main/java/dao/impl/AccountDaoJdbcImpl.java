@@ -28,7 +28,7 @@ public class AccountDaoJdbcImpl implements IAccountDao{
 				ps.setInt(2,act.getId());
 				ps.executeUpdate();
 			}
-		} catch (SQLException e) {
+		} catch (SQLException e) {  
 			e.printStackTrace();
 		}	
 	}
